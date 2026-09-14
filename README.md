@@ -16,7 +16,7 @@ This project involves:
 
 ---
 
-## 🏗️ Methodology
+## 🚩 Workflow
 
 The research workflow follows six main stages:
 
@@ -31,7 +31,7 @@ The research workflow follows six main stages:
 
 ---
 
-## 📊 Key Results & Insights
+## 💡 Key Results & Insights
 
 ### **Best Performing Model**
 The **Random Forest** model combined with **Random Oversampling** achieved the best overall results:
@@ -60,7 +60,7 @@ For imbalanced churn datasets where the minority (churn) class is business-criti
 - **XGBoost** — Gradient-boosted decision trees that iteratively correct prior errors.
 - **SVM (Support Vector Machine)** — Finds the optimal hyperplane to separate churned vs. retained customers.
 
-## ⚖️ Imbalanced Data Techniques Compared
+## 📊 Imbalanced Data Techniques Compared
 
 - **Random Undersampling** — Reduces the majority class to match the minority class.
 - **Random Oversampling** — Duplicates minority class samples to match the majority class.
