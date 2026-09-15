@@ -55,11 +55,11 @@ The **Random Forest** model combined with **Random Oversampling** achieved the b
 
 **Confusion Matrix (Random Forest, XGBoost, SVM — Random Oversampling):**
 
-![Confusion Matrix](docs/confusion_matrix_oversampling.png)
+![Confusion Matrix](docs/confusion_matrix.png)
 
 **ROC-AUC Curve (Random Oversampling):**
 
-![ROC Curve](docs/roc_auc_oversampling.png)
+![ROC Curve](docs/roc_curve.png)
 
 
 ### **Key Findings**
