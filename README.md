@@ -53,6 +53,15 @@ The **Random Forest** model combined with **Random Oversampling** achieved the b
 | Recall | 94.54% |
 | AUC | 0.95 |
 
+**Confusion Matrix (Random Forest, XGBoost, SVM — Random Oversampling):**
+
+![Confusion Matrix](docs/confusion_matrix_oversampling.png)
+
+**ROC-AUC Curve (Random Oversampling):**
+
+![ROC Curve](docs/roc_auc_oversampling.png)
+
+
 ### **Key Findings**
 - **Class imbalance matters**: Without handling imbalanced data, all three algorithms achieved high accuracy (~79%) but poor Recall (47–50%) — meaning they frequently failed to catch customers who actually churned.
 - **Oversampling techniques (Random Oversampling & SMOTE) significantly improved Recall**, making models far more useful for real-world retention strategies, at a modest cost to raw accuracy.
