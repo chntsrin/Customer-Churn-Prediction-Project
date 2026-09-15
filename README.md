@@ -68,6 +68,13 @@ The **Random Forest** model combined with **Random Oversampling** achieved the b
 - **Undersampling improved class balance but hurt accuracy** due to the loss of training data, making it the least suitable technique for this dataset.
 - **Top churn drivers** (via Feature Importance): **Total Charges**, **Tenure**, and **Monthly Charges** — customers with shorter tenure and specific billing patterns are most likely to churn.
 
+
+### **Feature Importance**
+
+![Feature Importance](docs/feature_importance.png)
+
+**Top churn drivers**: **Total Charges**, **Tenure**, and **Monthly Charges** — customers with shorter tenure and specific billing patterns are most likely to churn.
+
 ### **Business Recommendation**
 For imbalanced churn datasets where the minority (churn) class is business-critical, **Random Oversampling** offers the best trade-off between catching at-risk customers (high Recall) and overall model reliability — making it the recommended approach for this use case.
 
