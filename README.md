@@ -31,6 +31,16 @@ The research workflow follows six main stages:
 
 ---
 
+## ⚖️ Handling Imbalanced Data
+
+The dataset has a significant class imbalance — only ~27% of customers churned:
+
+![Class Imbalance](docs/class_imbalance.png)
+
+Without correcting this imbalance, models tend to favor the majority class (Not Churn), resulting in poor detection of actual churn cases — the group businesses care about most.
+
+---
+
 ## 💡 Key Results & Insights
 
 ### **Best Performing Model**
