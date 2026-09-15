@@ -26,7 +26,7 @@ The research workflow follows six main stages:
 2. **Data Preprocessing**: Removing irrelevant fields, handling missing values (11 rows with null `TotalCharges` removed), encoding categorical variables via One-Hot Encoding, and standardizing numeric features.
 3. **Handling Imbalanced Data**: Applying Random Undersampling, Random Oversampling, and SMOTE to correct the ~73% / ~27% class imbalance between retained and churned customers.
 4. **Data Splitting**: 70% training / 30% testing split, applied consistently across all four dataset versions (original + 3 balancing techniques).
-5. **Model Building**: Training Random Forest, XGBoost, and SVM on each dataset version.
+5. **Data Modelling**: Training Random Forest, XGBoost, and SVM on each dataset version.
 6. **Model Evaluation & Feature Importance**: Comparing results across all 12 model/technique combinations and identifying key churn drivers.
 
 ---
@@ -35,7 +35,7 @@ The research workflow follows six main stages:
 
 The dataset has a significant class imbalance — only ~27% of customers churned:
 
-![Class Imbalance](docs/class_imbalance.png)
+![Class Imbalance](docs/class_imbalanced.png)
 
 Without correcting this imbalance, models tend to favor the majority class (Not Churn), resulting in poor detection of actual churn cases — the group businesses care about most.
 
